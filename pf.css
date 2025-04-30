@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .corner-pic {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    width: 160px;       /* Increased from 100px */
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+  }
+  
+  
+
+  
+  header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .contact a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  section {
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+  }
+  
+  .skills ul, .education ul, .certificates ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004aad;
+    color: white;
+    font-size: 14px;
+  }
+  
